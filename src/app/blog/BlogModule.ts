@@ -7,7 +7,9 @@ import { PostListModule } from './list/PostListModule';
     imports: [
         PostListModule
     ],
-    exports: [],
+    exports: [
+        PostListModule
+    ],
     declarations: [],
     providers: [
         PostService,
