@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BlogModule } from './blog/BlogModule';
+import { MatButtonModule, MatIconModule, MatToolbarModule } from '@angular/material';
 
 
 @NgModule({
@@ -13,6 +14,9 @@ import { BlogModule } from './blog/BlogModule';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatButtonModule,
+    MatIconModule,
+    MatToolbarModule,
     BlogModule
   ],
   providers: [],
